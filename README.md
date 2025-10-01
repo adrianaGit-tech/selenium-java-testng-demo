@@ -1,2 +1,3 @@
-# selenium-java-testng-demo
-Selenium 4 + Java 17 + TestNG + Page Object + GitHub Actions demo project
+# Selenium Java TestNG Demo
+
+Repo inicial para mis tests automatizados.
