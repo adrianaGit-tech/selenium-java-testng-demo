@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-01T18:06:41 PYT" name="UI Tests" finished-at="2025-10-01T18:06:51 PYT" duration-ms="10235">
+    <groups>
+    </groups>
+    <test started-at="2025-10-01T18:06:41 PYT" name="Login Tests" finished-at="2025-10-01T18:06:51 PYT" duration-ms="10235">
+      <class name="com.example.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:41 PYT" name="setUp" finished-at="2025-10-01T18:06:43 PYT" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginInvalido()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:43 PYT" name="loginInvalido" finished-at="2025-10-01T18:06:46 PYT" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalido -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:46 PYT" name="tearDown" finished-at="2025-10-01T18:06:46 PYT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:46 PYT" name="setUp" finished-at="2025-10-01T18:06:48 PYT" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginValido()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:48 PYT" name="loginValido" finished-at="2025-10-01T18:06:51 PYT" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValido -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.tests.LoginTest@43ee72e6]" started-at="2025-10-01T18:06:51 PYT" name="tearDown" finished-at="2025-10-01T18:06:51 PYT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- UI Tests -->
+</testng-results>
