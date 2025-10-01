@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      # (Opcional) Instalar Chrome si hiciera falta. En ubuntu-latest suele venir listo.
+      # - name: Setup Chrome
+      #   uses: browser-actions/setup-chrome@v1
+
+      - name: Run tests (headless)
+        run: mvn -B -q -Dheadless=true test
